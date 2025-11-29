@@ -1,0 +1,4 @@
+
+- JOB: intercept -g $DEVNODE | caps2esc | uinput -d $DEVNODE
+  DEVICE:
+    LINK: /dev/input/by-id/usb-ADATA_XPG_Gaming_Keyboard-event-kbd 

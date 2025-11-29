@@ -14,3 +14,13 @@ theme: Bright Lights from:
 ```
 git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
 ```
+
+## Interception Tools
+install:
+```
+opi interception-tools 
+opi interception-caps2esc
+
+cp udevmon.yaml /etc/interception
+systemctl start udevmon.service
+```
