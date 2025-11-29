@@ -10,9 +10,10 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 ```
 
 ## Kitty-themes
-theme: Bright Lights from:
+theme: Catppuccin-Macchiato
+from: https://github.com/catppuccin/kitty
 ```
-git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
+kitty +kitten themes --reload-in=all Catppuccin-Macchiato
 ```
 
 ## Interception Tools
